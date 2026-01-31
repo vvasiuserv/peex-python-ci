@@ -40,6 +40,7 @@ def test_get_books_en():
         assert actual_books == expected_books
 
 
+# test called uk endpoint
 def test_get_books_uk():
 
     hook = PotterApiHook(base_url="https://test.com", default_lang="uk")
