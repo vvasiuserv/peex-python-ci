@@ -24,6 +24,7 @@ class PotterApiHook:
     def get_books(self):
 
         url = f"{self.base_url}/{self.default_lang}/books"
+        # some comment
 
         response = requests.get(url=url)
 
